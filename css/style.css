@@ -114,6 +114,7 @@ a, a:hover{
 	font-weight: 700;
 	color: #2500f9;
 	border: none;
+	border-radius: 25px;
 	background-color: transparent;
     padding: 10px 20px;
 	transition: 1s;
@@ -397,14 +398,13 @@ a, a:hover{
 	margin-bottom: 40px;
 }
 .feature-charges .inner-fc .btn-section{
-	width: 18%;
+	width: 215px;
 	border: 1px solid #e2eaed;
 	border-radius: 25px;
 	background-color: transparent;
 	margin-bottom: 40px;
 }
 .feature-charges .inner-fc .btn-primary{
-	margin-left: -20px;
 	font-size: 14px;
 	font-weight: 700;
 	color: #fff;
@@ -412,7 +412,7 @@ a, a:hover{
 	border-radius: 25px;
 	background-color: #2500f9;
     padding: 10px 20px;
-	transition: 1s;
+    margin-right: 10px;
 }
 .feature-charges .inner-fc .btn-info{
 	font-size: 14px;
@@ -422,9 +422,9 @@ a, a:hover{
 	background-color: transparent;
     padding: 10px 20px;
 	transition: 1s;
+	border-radius: 25px;
 }
 .feature-charges .inner-fc .btn-info:hover, .feature-charges .inner-fc .btn-info:focus{
-	margin-right: -20px;
 	color: #fff;
 	border: 1px solid #2500f9;
 	border-radius: 25px;
