@@ -372,6 +372,7 @@ a, a:hover{
 }
 .ultimate-feature .right-img{
 	margin-top: 50px;
+	width: 117%;
 }
 /*ultimate-feature section code end*/
 
@@ -628,18 +629,21 @@ a, a:hover{
 	font-size: 34px;
 	font-weight: 600;
 	color: #242f51;
-	margin: 120px 0 30px;
+	margin: 70px 0 30px;
 }
 .free-trial p{
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
 	color: #242f51;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .free-trial .img-badge{
 	width: 150px;
 	margin-right: 20px;
+}
+.free-trial img{
+	width: 115%;
 }
 /*free trial section end*/
 
@@ -649,7 +653,7 @@ a, a:hover{
 	padding: 80px 0;
 	background-color: #09142e;
 	text-align: center;
-	margin-top: -60px;
+	margin-top: -53px;
 }
 .footer img{
 	margin-top: 40px;
