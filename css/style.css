@@ -438,9 +438,11 @@ a, a:hover{
 .feature-charges .inner-price-table .card{
 	border: none !important;
 	margin-right: 50px;
+	box-shadow: 1px 4px 15px #ccc;
 }
 .feature-charges .inner-price-table .c-right{
 	border: 1px solid #ebebeb !important;
+	box-shadow: none;
 }
 .feature-charges .inner-price-table .card .amount h1{
 	margin-top: 40px;
@@ -549,34 +551,11 @@ a, a:hover{
 	font-weight: 400;
 	color: #242f51;
 }
-.testimonial .inner-testimonial .owl-theme .owl-dots{
-	display: none !important;
+.testimonial .inner-testimonial .owl-theme .owl-dots .owl-dot.active span{
+	background: #2500f9;
 }
 .testimonial .inner-testimonial .owl-theme .owl-nav{
-	font-weight: 400;
-	text-align: right;
-}
-.testimonial .inner-testimonial .owl-theme .owl-nav .owl-prev{
-	width: 25px;
-	color: #ebebeb;
-	border: 2px solid #ebebeb;
-	border-radius: 100%;
-	text-align: center;
-}
-.testimonial .inner-testimonial .owl-theme .owl-nav .owl-prev:hover, .testimonial .inner-testimonial .owl-theme .owl-nav .owl-prev:focus{
-	color: #2500f9;
-	background-color: #ebebeb;
-}
-.testimonial .inner-testimonial .owl-theme .owl-nav .owl-next{
-	width: 25px;
-	color: #ebebeb;
-	border: 2px solid #ebebeb;
-	border-radius: 100%;
-	text-align: center;
-}
-.testimonial .inner-testimonial .owl-theme .owl-nav .owl-next:hover, .testimonial .inner-testimonial .owl-theme .owl-nav .owl-next:focus{
-	color: #2500f9;
-	background-color: #ebebeb;
+	display: none !important;
 }
 /*testimonial section code end*/
 
